@@ -24,7 +24,7 @@ class bcolors:
 
 
 # Non-alphanumeric (str.isalphanum()) characters allowed in a file or folder name
-NON_ALPHANUM_FILE_OR_FOLDER_NAME_CHARACTERS = "-_. "
+NON_ALPHANUM_FILE_OR_FOLDER_NAME_CHARACTERS = "-_.áéóíú[]() "
 # What to replace bad characters with.
 NON_ALPHANUM_FILE_OR_FOLDER_NAME_CHARACTER_REPLACEMENT = "-"
 
